@@ -73,7 +73,10 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 const copyFromWindow = require('copyFromWindow');
 const callInWindow = require('callInWindow');
 
-const payload = {};
+const payload = {
+  cart: null
+};
+
 if (data.cart) {
   payload.cart = data.cart.map((cartObj) => {
     return {
