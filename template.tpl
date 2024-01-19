@@ -35,35 +35,35 @@ ___TEMPLATE_PARAMETERS___
     "name": "cart",
     "displayName": "Cart",
     "simpleValueType": true,
-    "help": "GTM variable representing your cart. Variable\u0027s value should be an array of objects, with each object including values representing the following keys: id, quantity, price, sku. Enter the names of the keys representing them in the fields below."
+    "help": "GTM variable representing the current customer\u0027s cart. Variable\u0027s value should be an array of objects, with each object including values that correspond to the following keys: id, quantity, price, and sku. Enter the names of the keys representing those values in the fields below."
   },
   {
     "type": "TEXT",
     "name": "cartObjectIdVarName",
     "displayName": "Item Object ID Key Name",
     "simpleValueType": true,
-    "help": "Name of the key on each item object in your cart representing the item\u0027s ID. Should just be a name, not a GTM variable. Variable\u0027s value should be a string."
+    "help": "Key that holds the item\u0027s ID on each item object in the current customer\u0027s cart. The key\u0027s corresponding value (the ID) should be a string or number."
   },
   {
     "type": "TEXT",
     "name": "cartObjectQuantityVarName",
     "displayName": "Item Object Quantity Key Name",
     "simpleValueType": true,
-    "help": "Name of the key on each item object in your cart representing the item\u0027s quantity. Should just be a name, not a GTM variable. Variable\u0027s value should be a number."
+    "help": "Key that holds the item\u0027s quantity on each item object in the current customer\u0027s cart. The key\u0027s corresponding value (the quantity) should be a number."
   },
   {
     "type": "TEXT",
     "name": "cartObjectPriceVarName",
     "displayName": "Item Object Price Key Name",
     "simpleValueType": true,
-    "help": "Name of the key on each item object in your cart representing the item\u0027s price. Should just be a name, not a GTM variable. Variable\u0027s value should be a number."
+    "help": "Key that holds the item\u0027s price on each item object in the current customer\u0027s cart. The key\u0027s corresponding value (the price) should be a number."
   },
   {
     "type": "TEXT",
     "name": "cartObjectSkuVarName",
     "displayName": "Item Object SKU Key Name",
     "simpleValueType": true,
-    "help": "Name of the key on each item object in your cart representing the item\u0027s SKU. Should just be a name, not a GTM variable. Variable\u0027s value should be a string."
+    "help": "Key that holds the item\u0027s SKU on each item object in the current customer\u0027s cart. The key\u0027s corresponding value (the SKU) should be a string."
   }
 ]
 
